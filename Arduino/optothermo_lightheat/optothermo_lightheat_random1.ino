@@ -14,7 +14,7 @@ Adafruit_MAX31856 maxthermo = Adafruit_MAX31856(10, 11, 12, 13);
 const int synchPin =  3; // synchronization LED
 const int redPin = 5; // red light LED
 const int greenPin = 6; // green light LED 
-const long TempReadInterval = 100; // how often to read the thermometer
+const long TempReadInterval = 100; // how often to read the thermometer (ms)
 const double highThresh = 26.0; // threshold for triggering the start of a temperature stimulus
 const long minIHI = 60000L; // minimum time before detecting another temperature increase
 const double lowThresh = 23.7; // threshold for triggering the start of an experiment
@@ -136,3 +136,4 @@ void loop() {
   }
   //end of LED stuff
 }
+
