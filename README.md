@@ -15,3 +15,4 @@ Design files and code for running the opto-thermocycler behavior assay that meas
 ├── Arduino/optothermo_lightheat/     # Arduino code for stimulis delivery
 ├── Laser_cutter_templates/           # Schmatics for making acrylic plate
 ├── OTC_thermocycler_programs/        # Thermocycler programs for stimulis delivery
+├── models/                           # Sleap models for predicting on OTC videos
